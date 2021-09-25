@@ -29,7 +29,7 @@ class Block{
         World.remove(world, this.body);
         push();
         this.Visibility = this.Visibility - 5;
-        tint(this.Visiblilty, 255);
+        tint(this.Visibility, 255);
         imageMode(CENTER);
         image(this.image, this.body.position.x, this.body.position.y, 50, 50)
         pop();
