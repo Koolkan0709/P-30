@@ -26,10 +26,10 @@ class Block{
         pop();
       }
       else{
-         World.remove(world, this.body);
+        World.remove(world, this.body);
         push();
         this.Visibility = this.Visibility - 5;
-        tint(255, this.Visiblilty);
+        tint(this.Visiblilty, 255);
         imageMode(CENTER);
         image(this.image, this.body.position.x, this.body.position.y, 50, 50)
         pop();
