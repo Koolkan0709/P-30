@@ -17,7 +17,7 @@ class Block{
       //var pos= this.body.position;
       //rectMode(CENTER);
       //rect(pos.x,pos.y,this.width, this.height);
-      if (this.body.speed < 3){
+      if (this.body.speed > 3){
         push();
         translate(this.body.position.x,this.body.position.y);
         rotate(this.body.angle);
